@@ -1,6 +1,8 @@
 # Руководство Django Girls
 
-Пройдено по [русскому переводу](https://tutorial.djangogirls.org/ru/)
+Пройдено по [русскому переводу](https://tutorial.djangogirls.org/ru/).
+
+Также пройдено продолжение по [Django Girls Tutorial: Extensions](https://tutorial-extensions.djangogirls.org/). 
 
 Дополнительно:
 
