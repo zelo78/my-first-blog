@@ -1,4 +1,6 @@
 {% load static %}
+{% load flatpages %}
+{% get_flatpages as flatpages %}
 <html>
     <head>
         <title>Django Girls blog</title>
@@ -25,6 +27,13 @@
                 {% endblock %}
                 </div>
             </div>
+        </div>
+        <div>
+            <ul>
+                {% for page in flatpages %}
+                    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+                {% endfor %}
+            </ul>
         </div>
     </body>
 </html>
