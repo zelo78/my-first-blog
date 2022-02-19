@@ -7,12 +7,18 @@
 Дополнительно:
 
 - Использование `.env` файла для хранения настроек и секретной информации
-- Использование [Flatpages](https://docs.djangoproject.com/en/4.0/ref/contrib/flatpages/) _Простых страниц_ для статичных страниц 
+- Использование [Flatpages](https://docs.djangoproject.com/en/4.0/ref/contrib/flatpages/ "Простые страницы") для статичных страниц
+- Добавлен WYSIWYG-редактор [Django CKEditor](https://github.com/django-ckeditor/django-ckeditor) для редактирования Flatpages в интерфейсе администрирования (с переопределением класса `FlatPageAdmin`)
 
 ## Использованные библиотеки
 
 - [Django](https://www.djangoproject.com/) v. 4.0.2
 - [python-dotenv](https://pypi.org/project/python-dotenv/) v. 0.19.2 - Считывает пары ключ-значение из файла .env и может устанавливать их в качестве переменных среды
+- [django-ckeditor](https://github.com/django-ckeditor/django-ckeditor) v. 6.2.0
+
+## Использованные технологии и программы
+
+- Git, [GitHub](https://github.com/zelo78/), [GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow)
 
 ### TODO
 
@@ -22,7 +28,7 @@
 - Использование bootstrap 5
 - Изменение дизайна страницы
 - Кеширование
-- Использование CKeditor для редактирования статичных страниц
+- Использование CKeditor для редактирования статичных страниц, кастомный тулбар
 - Переход на Postgresql 
 - Авторизация через социальные сети
 - Наследование моделей
