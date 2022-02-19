@@ -6,7 +6,7 @@
 
 Сайт развёрнут на сервере [Pythonanywhere](https://www.pythonanywhere.com) и доступен по адресу <https://zelo78.pythonanywhere.com/>
 
-Дополнительно:
+## Дополнительно
 
 - Использование `.env` файла для хранения настроек и секретной информации
 - Использование [Flatpages](https://docs.djangoproject.com/en/4.0/ref/contrib/flatpages/ "Простые страницы") для статичных страниц
@@ -22,7 +22,7 @@
 
 - Git, [GitHub](https://github.com/zelo78/), [GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow)
 
-### TODO
+## TODO
 
 - Полный переход на Class-Based Views
 - Генерация случайного наполнения демонстрационной базы
