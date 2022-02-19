@@ -2,7 +2,9 @@
 
 Пройдено [Руководство Django Girls](https://tutorial.djangogirls.org/ru/).
 
-Также пройдено продолжение по [Django Girls Tutorial: Extensions](https://tutorial-extensions.djangogirls.org/). 
+Также пройдено продолжение по [Django Girls Tutorial: Extensions](https://tutorial-extensions.djangogirls.org/).
+
+Сайт развёрнут на сервере [Pythonanywhere](https://www.pythonanywhere.com) и доступен по адресу <https://zelo78.pythonanywhere.com/>
 
 Дополнительно:
 

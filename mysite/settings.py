@@ -146,3 +146,4 @@ LOGIN_REDIRECT_URL = '/'
 CKEDITOR_BASEPATH = '/static/ckeditor/ckeditor/'
 CKEDITOR_UPLOAD_PATH = 'uploads/'
 CKEDITOR_ALLOW_NONIMAGE_FILES = False
+from .ckeditor_congfigs import CKEDITOR_CONFIGS
