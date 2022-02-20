@@ -14,8 +14,8 @@ class PostFactory(DjangoModelFactory):
         model = Post
 
     author = LazyFunction(lambda: random.choice(User.objects.all()))
-    title = Faker('sentence', nb_words=4, locale='ru_RU')
-    text = Faker('paragraph', nb_sentences=6, locale='ru_RU')
+    title = Faker('sentence', nb_words=4, locale='en_US')
+    text = Faker('paragraph', nb_sentences=6, locale='en_US')
     published_date = fuzzy.FuzzyDateTime(start_dt=timezone.now()-timedelta(days=730))
 
 
@@ -25,5 +25,5 @@ class CommentFactory(DjangoModelFactory):
 
     post = LazyFunction(lambda: random.choice(Post.objects.all()))
     author = Faker('name', locale='ru_RU')
-    text = Faker('paragraph', nb_sentences=4, locale='ru_RU')
+    text = Faker('paragraph', nb_sentences=4, locale='en_US')
     approved_comment = Faker('pybool')
