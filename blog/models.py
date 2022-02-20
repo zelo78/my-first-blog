@@ -6,7 +6,7 @@ from django.utils import timezone
 class CreatedEditedInfo(models.Model):
     class Meta:
         abstract = True
-        ordering = ['-edited']
+        ordering = ['-created']
     created = models.DateTimeField(auto_now_add=True)
     edited = models.DateTimeField(auto_now=True)
 
